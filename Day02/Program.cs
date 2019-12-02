@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        //Part1();
+        Part1();
         Part2();
     }
 
@@ -31,8 +31,6 @@ public class Program
                 data = InitialStatePart2(data, noun, verb);
                 data = Operate2(data);
                 if(data[0] == 19690720) {
-                    Console.WriteLine(noun);
-                    Console.WriteLine(verb);
                     Console.WriteLine(100*noun+verb);
                     break;
                 }
